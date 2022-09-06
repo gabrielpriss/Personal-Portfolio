@@ -45,10 +45,7 @@ export default function ContactMe(props) {
           <form>
             <p>{banner}</p>
             <label htmlFor="name"></label>
-            <span><b>Full Stack Web Developer</b> | Python | JavaScript | TypeScript | React | NodeJS | Redux | RTL | Jest | Mocha Chai | Express | Docker | MySQL | MongoDB</span>
-            <label htmlFor="name"><b>Gabriel Priss</b></label>
-
-            <label htmlFor="email"><b>gabrielpriss@hotmail.com</b></label>
+            <span><b>Full Stack Web Developer</b> <br />  Python | JavaScript | TypeScript | React | NodeJS | Redux | RTL  Jest | Mocha Chai | Express | Docker | MySQL | MongoDB < br/>< br/> <b>Gabriel Priss</b> < br/> <b>gabrielpriss@hotmail.com</b></span>
 
             <div className="send-btn">
             </div>

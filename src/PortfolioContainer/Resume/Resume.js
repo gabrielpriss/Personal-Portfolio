@@ -80,22 +80,22 @@ const Resume = (props) => {
   ];
 
   const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 80 },
-    { skill: "TypeScript", ratingPercentage: 80 },
-    { skill: "Express", ratingPercentage: 80 },
-    { skill: "Node JS", ratingPercentage: 80 },
-    { skill: "React JS", ratingPercentage: 80 },
-    { skill: "SQL and NoSQL", ratingPercentage: 80 },
-    { skill: "MySQL", ratingPercentage: 80 },
-    { skill: "Jest and RTL", ratingPercentage: 80 },
-    { skill: "Mocha and Chai", ratingPercentage: 80 },
-    { skill: "MongoDB", ratingPercentage: 80 },
-    { skill: "Python", ratingPercentage: 80 },
-    { skill: "Web Scraping", ratingPercentage: 80 },
-    { skill: "Java", ratingPercentage: 80 },
-    { skill: "P Objects Oriented", ratingPercentage: 80 },
-    { skill: "Tests Coverage TDD", ratingPercentage: 80 },
-    { skill: "Docker", ratingPercentage: 80 },
+    { skill: "JavaScript" },
+    { skill: "TypeScript" },
+    { skill: "Node JS" },
+    { skill: "Express" },
+    { skill: "React JS" },
+    { skill: "SQL and NoSQL" },
+    { skill: "MySQL" },
+    { skill: "MongoDB" },
+    { skill: "Tests Coverage TDD" },
+    { skill: "Mocha and Chai" },
+    { skill: "Jest and RTL" },
+    { skill: "Python" },
+    { skill: "Web Scraping" },
+    { skill: "Java" },
+    { skill: "P. Objects Oriented" },
+    { skill: "Docker" },
 
   ];
 
@@ -127,7 +127,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Trybe"}
-        subHeading={"Trybe's 1500 hours full stack web development course abords software development, front and back-end development, computer science, software engineering and soft skills"}
+        subHeading={"Trybe's 1500 hours full stack web development course adresses software development, front and back-end development, computer science, software engineering and soft skills"}
       />
 
       <ResumeHeading
@@ -150,14 +150,13 @@ const Resume = (props) => {
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Editing videos and thumbnails making for youtube games and vlogs channels.{" "}
-          </span>
-          <br />
-          <span className="resume-description-text">
             - Developed videos for insurance company with the purpose to present the company to clients and
             thank them when a deal was made.
           </span>
           <br />
+          <span className="resume-description-text">
+            - Editing videos and thumbnails making for youtube games and vlogs channels.{" "}
+          </span>
         </div>
       </div>
     </div>,
@@ -197,11 +196,11 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading="Music"
-        description="Skimming through Spotify's pop and rap songs is at times the best motivator that i can get my hands on."
+        description="Skimming through old school rap songs is at times the best motivator that i can get my hands on."
       />
       <ResumeHeading
         heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in strategy video-games, having interactive gaming sessions sometimes is not always relaxing but excites me the most."
+        description="I like to challenge my reflexes a lot while competing in strategy video-games, having interactive gaming excites me the most."
       />
     </div>,
   ];

@@ -19,7 +19,7 @@ export default function Profile() {
           </div>
           <div className="profile-name">
             <span className="primary-text">
-              Hello I'm {" "}
+              Hi, my name is {" "}
               <span className="name">
                 Gabriel
               </span>
@@ -33,10 +33,8 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full Stack", 1000,
-                    "React/Node", 1000,
-                    "Web", 1000,
-                    "Developer", 1000,
+                    "Full Stack ♠", 1000,
+                    "Web Developer 💻", 1000,
                   ]}
                 >
                 </Typical>
