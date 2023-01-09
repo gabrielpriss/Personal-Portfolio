@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      `Hi, I'm a 19 years old brazillian full stack junior web developer with background knowledge of video/photo editing. I started at development area in a course and got a passion for programming and building applications with efficiency. Still looking for the first opportunity to work in the development area.`,
+      `Hi, I'm a 19 years old brazillian full stack junior web developer with background knowledge of video/photo editing. I started at development area in a course and got a passion for programming and building applications with efficiency. Have experience in a full-time job in the development area in 2022.`,
     highlights: {
       bullets: [
         "Front and back-end Development",

@@ -72,8 +72,8 @@ const Resume = (props) => {
   };
 
   const resumeBullets = [
-    { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
+    { label: "Education", logoSrc: "education.svg" },
     { label: "Principal Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
@@ -124,6 +124,32 @@ const Resume = (props) => {
   ];
 
   const resumeDetails = [
+
+    <div className="resume-screen-container" key="work-experience">
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Full Stack Junior Web Developer "}
+          subHeading={"Signo Web - Curitiba, Brasil"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Worked as a full-time web developer in 2022 at Signo Web.
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            - Development and maintance of web aplications, most of them with React/Node - JavaScript/TypeScript.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Some of the projects that I put my hands on:
+            <br />- <a target="_blank" rel="noopener noreferrer" href="https://www.lotericanova.com/">Lotérica Nova</a>.{" "}
+            <br />- <a target="_blank" rel="noopener noreferrer" href="https://www.centroradiologicocg.com.br/">Centro Radiológico</a>.{" "}
+          </span>
+        </div>
+      </div>
+    </div>,
+
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Trybe"}
@@ -135,30 +161,6 @@ const Resume = (props) => {
         subHeading={"Sesi Alto da Glória Curitiba"}
 
       />
-    </div>,
-
-    <div className="resume-screen-container" key="work-experience">
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Free Lancer Video/Photo Editor"}
-          subHeading={"THUMBNAILS AND VIDEOS EDITS"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text">
-            Haven't worked as web developer yet.
-          </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Developed videos for insurance company with the purpose to present the company to clients and
-            thank them when a deal was made.
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Editing videos and thumbnails making for youtube games and vlogs channels.{" "}
-          </span>
-        </div>
-      </div>
     </div>,
 
     /* PROGRAMMING SKILLS */
